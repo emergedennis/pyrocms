@@ -1,0 +1,29 @@
+                    <div class="clear">&nbsp;</div>
+                    <hr />
+                    <footer class="footer">
+                            {{ widgets:area slug="footer" }}
+
+                            <ul class="navigation horizontal">
+                                    {{ navigation:links group="footer" }}
+                            </ul>
+                    </footer>
+
+                </div>
+                <!-- /page-wrapper -->
+            </div>
+            <!-- /grid-wrapper -->
+
+            <!-- JavaScript at the bottom for fast page loading -->
+
+            <!-- Scripts -->
+            {{ theme:js file="vendor/bootstrap.min.js" }}
+            {{ theme:js file="plugins.js" }}
+            {{ theme:js file="main.js" }}
+            <!-- End Scripts -->
+
+
+            <!-- Google Analytics -->
+            {{ integration:analytics }}
+
+    </body>
+</html>

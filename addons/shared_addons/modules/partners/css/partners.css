@@ -1,0 +1,5 @@
+
+.partners-data table { width: 100%; }
+.partners-data th { font-weight: bold; border-bottom: 1px solid #d8d8d8; }
+.partners-data th,td { padding: 5px; width: 50%; text-align: center; }
+.partners-data td { background-color: #f2f2f2; }

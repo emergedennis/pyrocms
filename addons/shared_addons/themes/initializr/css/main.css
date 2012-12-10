@@ -1,0 +1,72 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+html {
+height:100%;
+}
+
+body {
+height:100%;
+}
+
+#grid-wrapper {
+  min-height: 100%;
+}
+
+#page-wrapper {
+  overflow:auto;
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================================================
+   											RESPONSIVE STYLES
+   ======================================================================================================== */
+
+/*Large Desktop*/
+
+
+
+
+
+/*Small Desktop*/
+@media (min-width: 980px) and (max-width: 1199px) {
+
+}
+
+
+
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+
+
+
+/*Mobile*/
+@media (max-width: 767px) {
+
+}
