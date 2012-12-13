@@ -13,7 +13,18 @@
 	
 	<?php echo Asset::render() ?>
 	
-	<!-- Place CSS bug fixes for IE 7 in this comment -->
+	<!-- Place CSS bug fixes for IE in these comments -->
+	<!--[if IE 9]>
+	<style type="text/css" media="screen">
+		.input-password { padding-bottom:10px; }
+	</style>
+	<![endif]-->
+	<!--[if IE 8]>
+	<style type="text/css" media="screen">
+		.input-email { padding-bottom:20px; }
+		.input-password { padding-bottom:20px; }
+	</style>
+	<![endif]-->
 	<!--[if IE 7]>
 	<style type="text/css" media="screen">
 		#login-logo { margin: 15px auto 15px auto; }
